@@ -1,0 +1,96 @@
+@import url('fontawesome.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+}
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  padding: 8%;
+}
+
+header {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+footer {
+  background-color: black;
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.slide-odd {
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  height: 825px;
+}
+
+.slide-even {
+  z-index: 2;
+  background-color: white;
+  text-align: center;
+}
+
+.text {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#slide-1 h2 {
+  margin-top: 200px;
+}
+
+#slide-1 {
+  background-image: url(../images/pineapple.jpeg);
+}
+
+#slide-3 {
+  background-image: url(../images/strawberry.jpeg);
+}
+
+#slide-5 {
+  background-image: url(../images/apple.jpeg);
+}
+
+#slide-7 {
+  background-image: url(../images/berries.jpeg);
+}
